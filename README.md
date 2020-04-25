@@ -5,14 +5,12 @@ for inserting Latex style math characters in vim.
 
 ## Installation
 
-Install with your favourite Plugin Manager. 
-For _Vim Plug_ put the following in your `.vimrc` or `init.vim`
+Install with your favorite Plugin Manager. 
+For [Vim Plug](https://github.com/junegunn/vim-plug) put the following in your `.vimrc` or `init.vim`
 
 ```
     Plug 'augustunderground/vim-mathmode'
 ```
-
-You have to specify the whole URL, because this plugin is only on gitlab, not on github.
 
 ## Configuration
 
@@ -23,5 +21,5 @@ how math mode is started in Latex:
 map <leader>$ :call Toggle_math_mode()<CR>a
 ```
 
-By default `<leader>` is mapped to `\`, so after hitting `\` `$` your able to insert
-math symbols and greek letteres by typing `\lambda` for example.
+By default `<leader>` is mapped to `\`, so after hitting `\` `$` you're able to insert
+math symbols and Greek letters by typing `\lambda` for example.
