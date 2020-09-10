@@ -92,6 +92,7 @@ function! Math_symbols_on()
     imap \equiv ≡
     imap \leq ≤
     imap \geq ≥
+    imap \neq ≠
     imap \perp ⊥
     imap \prec ≺
     imap \parallel ‖
@@ -233,6 +234,7 @@ function! Math_symbols_off()
     iunmap \equiv
     iunmap \leq
     iunmap \geq
+    iunmap \neq
     iunmap \perp
     iunmap \prec
     iunmap \parallel
