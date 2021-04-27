@@ -165,7 +165,7 @@ function! Greek_letters_on()
     imap \nu ν
     imap \tau τ
     imap \varphi φ
-    imap \Omega Ω
+    imap \Omega Ω
     imap \epsilon ε
     imap \theta θ
     imap \varpi $
